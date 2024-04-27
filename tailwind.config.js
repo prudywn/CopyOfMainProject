@@ -10,14 +10,18 @@ module.exports = {
       keyframes: {
       'open-menu': {
         '0%': { transform: 'scaleY(0)'},
-        '80%': { transform: 'scaleY(1.0)'},
-        '100%': { transform: 'scaleY(0.7)'},
+        '80%': { transform: 'scaleY(1.2)'},
+        '100%': { transform: 'scaleY(1.0)'},
       },
     },
 
       animation:{
-      'open-menu': 'open-menu 0.5s ease-in-out forwards',
-    }
+      'open-menu': 'open-menu 0.5s ease-in-out forwards'
+    },
+
+    minHeight:{
+      'screen' : '80vh'
+    },
   },
 },
   
